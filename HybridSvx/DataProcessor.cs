@@ -12,6 +12,9 @@ namespace HybridSvx
             try
             {
                 LogMessage();
+                Console.WriteLine("Press any key");
+                Console.ReadKey();
+
             }
             catch (Exception e)
             {
